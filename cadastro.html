@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <form method="post">
+
+
+                <!-- <label for="assunto"><strong>Assunto :</strong></label>
+                <select name="Assunto" id="assunto">
+                    <option value="valor1">Requisição</option>
+                    <option value="valor2">Incidente</option>
+                </select><br><br> -->
+<!-- 
+                <label class="nivel-urgencia" for="urgencia"><strong>Nível de urgencia :</strong></label><br>
+                <input type="radio" id="urgencia"> Alta <br>
+                <input type="radio" id="urgencia">Media<br>
+                <input type="radio" id="urgencia">Baixa<br><br> -->
+<div class="container">
+    <!-- <label for="nome"><strong>Nome Completo :</strong></label><br> -->
+    <input class="modifica-input" type="text" id="nome" placeholder="Seu Nome" autocomplete="disable"><br><br>
+
+    <!-- <label for="email"><strong> E-Mail :</strong></label> <br> -->
+    <input class="modifica-input" type="email" id="email" placeholder="Seu email" autocomplete="disable"><br><br>
+
+    <form action="#">
+        <!-- <label for="CPF"><strong>CPF :</strong></label><br> -->
+        <input class="modifica-input" type="text" id="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite o numero no formato 555.555.555-55" placeholder="Seu CPF" autocomplete="disable">
+    </form><br><br><br><br>
+
+    <!-- <h4>Anexe seu arquivo : </h4>
+    <label class="arquivo" for="arquivo">Anexe Seu arquivo</label>
+    <input type="file" id="arquivo"><br><br><br><br> -->
+
+    <!-- <label for="mensagem"><strong>Mensagem :</strong></label><br> -->
+    <textarea placeholder="Deixe aqui sua mensagem" class="text-area" name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br><br>
+
+    <!-- <input type="checkbox" id="teste">
+    <label for="teste">Aceito receber as novidades por e-mail</label><br><br> -->
+
+    <input class="enviar" type="submit">
+</div>
+               
+        </form>
+    </section>
+</body>
+
+</html>
