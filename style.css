@@ -1,41 +1,40 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
-body{
- text-align: center;
- background: rgb(244,204,84)
+body {
+  text-align: center;
+  background: rgb(244, 204, 84);
 }
 
-.container{
-    width: 600px;
-    position: relative;
-    margin: auto;
-    border-radius: 20px;
-    background-color: white;
-    margin-top: 150px;
-    box-sizing: border-box;
+.container {
+  width: 600px;
+  position: relative;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-.modifica-input{
-    height: 40px;
-    width: 50%;
-    border: none;
-    border-bottom:  rgb(244,204,84) solid 1px;
+.modifica-input {
+  height: 40px;
+  width: 50%;
+  border: none;
+  border-bottom: rgb(244, 204, 84) solid 1px;
+  outline: none;
+  margin: 5px 0px 5px 0px;
 }
 
-.text-area{
-    border-radius: 6px;
-    width: 50%;
-    border: solid 1px  rgb(244,204,84);
+.enviar {
+  padding: 10px;
+  width: 25%;
+  border-radius: 25px;
+  border: solid 1px rgb(244, 204, 84);
+  cursor: pointer;
 }
-
-.enviar{
-    padding: 10px;
-    width: 25%;
-    margin-bottom: 30px;
-    border-radius: 25px;
-    border: solid 1px  rgb(244,204,84) ;
+.enviar:hover {
+  background-color: rgb(244, 204, 84);
+  transition: 0.5s;
 }
-
