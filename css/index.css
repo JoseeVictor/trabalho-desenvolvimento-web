@@ -2,18 +2,19 @@ body {
   overflow: hidden;
 }
 .section-home {
-  height: 90vh;
+  height: 94vh;
   width: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(https://initiate.alphacoders.com/images/950/cropped-1920-1080-950368.jpg?402);
+  background-image: url(../assets/cropped-1920-1080-950368.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 .products {
   display: flex;
   flex-direction: row;
@@ -66,6 +67,7 @@ body {
   color: white;
   margin-top: 31vh;
   font-size: 70px;
+  text-shadow: 5px 3px 5px black;
 }
 .section-ipad {
   background-color: #f7f7f7;
@@ -78,4 +80,29 @@ body {
 .section-ipad h1 {
   margin-left: 100px;
   margin-bottom: 200px;
+}
+@media (max-width: 700px) {
+  .products {
+    display: grid;
+  }
+  .product-square {
+    width: 50vw;
+    height: 16vh;
+    margin-bottom: 9vh;
+  }
+  .section-home h1 {
+    font-size: 8vh;
+    margin-top: 5vh;
+  }
+}
+@media (min-width: 701px) and (max-width: 1180px) {
+  .product-square {
+    width: 21vw;
+    height: 12vh;
+    margin-bottom: 20vh;
+  }
+  .section-home h1 {
+    font-size: 8vh;
+    margin-top: 20vh;
+  }
 }

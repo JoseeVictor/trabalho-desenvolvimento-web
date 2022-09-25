@@ -27,6 +27,18 @@ body {
   outline: none;
   margin: 5px 0px 1px 0px;
 }
+@media (max-width: 1000px) {
+  .modifica-input {
+    height: 6vh;
+    width: 80%;
+  }
+  .containerca {
+    width: 100%;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+  }
+}
 
 .enviar {
   padding: 10px;

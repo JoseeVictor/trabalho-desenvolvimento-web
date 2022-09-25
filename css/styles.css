@@ -3939,6 +3939,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  width: 100%;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -8087,4 +8088,14 @@ fieldset:disabled .btn {
 
 body {
   background-color: rgb(250, 234, 186);
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+  .row {
+    display: grid;
+    padding-left: 200px;
+  }
+  .card-img-top {
+  }
+  .mb-5 {
+  }
 }
