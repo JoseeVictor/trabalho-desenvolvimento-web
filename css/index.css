@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../assets/30121923.jpg);
+  background-image: url(https://initiate.alphacoders.com/images/950/cropped-1920-1080-950368.jpg?402);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,34 +21,50 @@ body {
   align-items: flex-end;
 }
 .product-square {
-  background-color: rgb(233, 230, 56);
+  background-color: rgb(233, 230, 56, 0.8);
   height: 20vh;
   width: 12vw;
   margin-right: 15px;
   margin-bottom: 50px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .ipad {
   background-image: url(../assets/61d4a5448b51e20004664d4a.png);
-  background-size: 100px;
+  background-size: 90px;
   background-position: center;
   background-repeat: no-repeat;
+}
+.ipad:hover {
+  background-color: rgb(233, 230, 56);
+  background-size: 100px;
+  transition: 0.5s;
 }
 .iphone {
   background-image: url(../assets/iPhone-14-PNG.png);
-  background-size: 100px;
+  background-size: 90px;
   background-position: center;
   background-repeat: no-repeat;
 }
+.iphone:hover {
+  background-color: rgb(233, 230, 56);
+  background-size: 100px;
+  transition: 0.5s;
+}
 .macbook {
   background-image: url(../assets/AMZ_FamilyStripe_MacBook_Pro_13_in._CB633575652_.png);
-  background-size: 200px;
+  background-size: 190px;
   background-position: bottom;
   background-repeat: no-repeat;
 }
+.macbook:hover {
+  background-color: rgb(233, 230, 56);
+  background-size: 200px;
+  transition: 0.5s;
+}
 .section-home h1 {
   color: white;
-  margin-top: 150px;
+  margin-top: 31vh;
   font-size: 70px;
 }
 .section-ipad {
