@@ -78,11 +78,10 @@
           <form action="#">
               <!-- <label for="CPF"><strong>CPF :</strong></label><br> -->
               <input
-              class="modifica-input"
+              class="modifica-input cpf"
               type="text"
               id="CPF"
-              pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
-              title="Digite o numero no formato 555.555.555-55"
+              
               placeholder="CPF"
               autocomplete="disable"
               />
@@ -137,8 +136,8 @@
     <label for="teste">Aceito receber as novidades por e-mail</label><br><br> -->
 
           <input type="reset"  class="enviar" value="Limpar" ></input>
-          <button class="enviar" value="Enviar">Enviar</button>
-          <input class="enviado" value="Enviado!" type="submit" />
+          <input class="enviar" value="Enviar" type="reset"/>
+          <input class="enviado" value="Enviado!" type="button" />
         </div>
       </form>
     </section>
